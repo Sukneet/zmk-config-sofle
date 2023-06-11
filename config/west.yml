@@ -2,13 +2,13 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: infused-kim
-      url-base: https://github.com/infused-kim
+    - name: Sukneet
+      url-base: https://github.com/Sukneet
     - name: tklzg
       url-base: https://github.com/tklzg
   projects:
     - name: zmk
-      remote: tklzg
+      remote: Sukneet
       revision: encoder
       import: app/west.yml
   self:
